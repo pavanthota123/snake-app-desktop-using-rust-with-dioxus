@@ -1,5 +1,4 @@
 use dioxus::prelude::*;
-
 pub fn initialize_grid(
     grid: &mut Signal<Vec<Vec<u32>>>,
     snake_positions: &mut Signal<Vec<Vec<i32>>>,

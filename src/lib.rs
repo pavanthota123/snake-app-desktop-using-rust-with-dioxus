@@ -87,8 +87,6 @@ mod tests {
             assert_eq!(grid[0][0], 1);
             assert_eq!(grid[0][1], 1);
             assert_eq!(grid[0][2], 1);
-           
-    
             assert_eq!(snake_positions, vec![vec![0, 0], vec![0, 1], vec![0, 2]]);  //checking the snake positions again after the reset
     
             // Check other state variables if they are updated corectly after reset.
