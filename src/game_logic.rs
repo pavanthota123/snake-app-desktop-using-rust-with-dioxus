@@ -1,8 +1,6 @@
 use rand::Rng;
 use crate::direction::Direction;
 
-
-
 pub fn get_random_number() -> u32 {
     let mut rng = rand::thread_rng();
     rng.gen_range(0..15)

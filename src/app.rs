@@ -1,7 +1,6 @@
 use dioxus::prelude::*;
 use rand::Rng;
 
-
 use crate::display_grid::DisplayGrid;
 use crate::grid::initialize_grid;
 use crate::direction::{Direction, DirectionControls};
@@ -9,8 +8,6 @@ use crate::game_logic::{
     get_random_number, update_snake_position, check_collision,
     update_score, reset_game_state
 };
-
-
 
 #[component]
 pub fn app() -> Element {

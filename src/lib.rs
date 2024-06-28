@@ -4,7 +4,6 @@ pub mod direction;
 pub mod grid;
 pub mod game_logic;
 
-
 #[cfg(test)]
 mod tests {
     use crate::game_logic::get_random_number;
